@@ -16,6 +16,10 @@
 		EB531A1028B8BC7800966574 /* MentorBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB531A0F28B8BC7800966574 /* MentorBookTests.swift */; };
 		EB531A1A28B8BC7800966574 /* MentorBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB531A1928B8BC7800966574 /* MentorBookUITests.swift */; };
 		EB531A1C28B8BC7800966574 /* MentorBookUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB531A1B28B8BC7800966574 /* MentorBookUITestsLaunchTests.swift */; };
+		EB531A2C28B8BCB900966574 /* ryo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EB531A2928B8BCB900966574 /* ryo.jpg */; };
+		EB531A2D28B8BCB900966574 /* nagata.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EB531A2A28B8BCB900966574 /* nagata.jpg */; };
+		EB531A2E28B8BCB900966574 /* taithi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EB531A2B28B8BCB900966574 /* taithi.jpg */; };
+		EB531A3028B8C6CA00966574 /* Mentor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB531A2F28B8C6CA00966574 /* Mentor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		EB531A1528B8BC7800966574 /* MentorBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MentorBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB531A1928B8BC7800966574 /* MentorBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentorBookUITests.swift; sourceTree = "<group>"; };
 		EB531A1B28B8BC7800966574 /* MentorBookUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentorBookUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EB531A2928B8BCB900966574 /* ryo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ryo.jpg; sourceTree = "<group>"; };
+		EB531A2A28B8BCB900966574 /* nagata.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nagata.jpg; sourceTree = "<group>"; };
+		EB531A2B28B8BCB900966574 /* taithi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = taithi.jpg; sourceTree = "<group>"; };
+		EB531A2F28B8C6CA00966574 /* Mentor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mentor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,7 @@
 		EB5319F728B8BC7800966574 /* MentorBook */ = {
 			isa = PBXGroup;
 			children = (
+				EB531A2828B8BCB900966574 /* images */,
 				EB5319F828B8BC7800966574 /* AppDelegate.swift */,
 				EB5319FA28B8BC7800966574 /* SceneDelegate.swift */,
 				EB5319FC28B8BC7800966574 /* ViewController.swift */,
@@ -106,6 +115,7 @@
 				EB531A0128B8BC7800966574 /* Assets.xcassets */,
 				EB531A0328B8BC7800966574 /* LaunchScreen.storyboard */,
 				EB531A0628B8BC7800966574 /* Info.plist */,
+				EB531A2F28B8C6CA00966574 /* Mentor.swift */,
 			);
 			path = MentorBook;
 			sourceTree = "<group>";
@@ -125,6 +135,16 @@
 				EB531A1B28B8BC7800966574 /* MentorBookUITestsLaunchTests.swift */,
 			);
 			path = MentorBookUITests;
+			sourceTree = "<group>";
+		};
+		EB531A2828B8BCB900966574 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				EB531A2928B8BCB900966574 /* ryo.jpg */,
+				EB531A2A28B8BCB900966574 /* nagata.jpg */,
+				EB531A2B28B8BCB900966574 /* taithi.jpg */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +251,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB531A2E28B8BCB900966574 /* taithi.jpg in Resources */,
+				EB531A2C28B8BCB900966574 /* ryo.jpg in Resources */,
+				EB531A2D28B8BCB900966574 /* nagata.jpg in Resources */,
 				EB531A0528B8BC7800966574 /* LaunchScreen.storyboard in Resources */,
 				EB531A0228B8BC7800966574 /* Assets.xcassets in Resources */,
 				EB531A0028B8BC7800966574 /* Main.storyboard in Resources */,
@@ -258,6 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB531A3028B8C6CA00966574 /* Mentor.swift in Sources */,
 				EB5319FD28B8BC7800966574 /* ViewController.swift in Sources */,
 				EB5319F928B8BC7800966574 /* AppDelegate.swift in Sources */,
 				EB5319FB28B8BC7800966574 /* SceneDelegate.swift in Sources */,
